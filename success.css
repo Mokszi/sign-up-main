@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    color: hsl(234, 29%, 20%);
 }
 
 h1{

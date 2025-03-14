@@ -19,6 +19,17 @@ h1{
     font-weight: 700;
 }
 
+div{
+    display: flex;
+    flex-direction: row;
+}
+
+.errorm{
+    display: none;
+    margin-left: auto;
+    color: hsl(4, 100%, 67%);
+}
+
 ul {
     padding-left: 10%;
     list-style-image: url('assets/images/icon-list.svg');
@@ -41,7 +52,8 @@ input{
     margin-bottom: 5%;
     border-radius: 8px;
     border: 2px solid hsl(0, 0%,58%);
-    opacity: 50%;    
+    opacity: 50%;
+    text-indent: 20px;
 }
 
 button{
