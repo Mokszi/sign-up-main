@@ -64,3 +64,57 @@ button{
     border-radius: 8px;
     font-weight: 700;
 }
+
+button:hover {
+    background-image: linear-gradient(to right, hsl(4, 100%, 67%), hsl(31, 93%, 53%));
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+@media screen and (min-width: 700px) {
+    form {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border-radius: 25px;
+        padding: 2%;
+        width: 60%;
+        height: 70vh;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    img {
+        width: 50%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    input{
+        min-height: 50px;
+        max-width: 98%;
+    }
+
+    button{
+        min-height: 50px;
+    }
+
+    body {
+        background-color: hsl(235, 18%, 26%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin-bottom: 0;
+    }
+}
